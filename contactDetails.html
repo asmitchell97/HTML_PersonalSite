@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Details</title>
-  </head>
-  <body>
-    <h3>My Contact Details</h3>
-    <ul>
-      <li><pre>Email   : asmitchell97@gmail.com</pre></li>
-      <li><pre>LinkedIn: https://www.linkedin.com/in/andrew-mitchell-2775a4190</pre></li>
-    </ul>
 
-    <a href="index.html"><-- Back</a>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Contact Details</title>
+</head>
+
+<body>
+  <h3>My Contact Details</h3>
+  <table cellspacing="5">
+    <tr>
+      <td>Email:</td>
+      <td>asmitchell97@gmail.com</td>
+    </tr>
+    <tr>
+      <td>LinkedIn:</td>
+      <td><a href="https://www.linkedin.com/in/andrew-mitchell-2775a4190">As if by magic you will appear there</a></td>
+    </tr>
+  </table>
+  <br>
+  <form action="mailto:galaminimitch@yahoo.co.uk" method:"post" encoding="text/plain">
+    <label for="Name">Name</label>
+    <input type="text" name="Name" value="">
+    <br>
+    <label for="Email">Email</label>
+    <input type="email" name="Email" value="">
+    <br>
+    <label for="Message">Message</label>
+    <textarea name="Message" rows="5" cols="10"></textarea>
+    <input type="submit" name="Submit" value="Send Message">
+  </form>
+
+  <a href="index.html">
+    <-- Back</a>
+</body>
+
 </html>
