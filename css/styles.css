@@ -1,0 +1,40 @@
+body {
+  background-color:#fff0f5;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, table {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+            /*  top | right | bottom | left*/
+  border-style: none  none    solid   none;
+  border-color: white;
+  border-radius: 0;
+  border-width: 3px;
+  width: 10%
+}
+
+h1 {
+  color: #efa8e4;
+}
+
+h3 {
+  color: #97e5ef;
+}
+
+p {
+  color: grey;
+}
+
+ul {
+  color: grey;
+}
+
+ol {
+  color: grey;
+}
+
+table {
+  color: grey;
+}
